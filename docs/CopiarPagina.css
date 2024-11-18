@@ -1,0 +1,321 @@
+.fondo{
+
+    background-image: url('https://fotografias.lasexta.com/clipping/cmsimages02/2018/02/27/53389E89-D895-41DE-AB0F-550D8D21CF72/98.jpg?crop=1619,911,x0,y3&width=1900&height=1069&optimize=high&format=webply');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(0, 0, 100, 0.2);
+    height: 1000px;
+    position: relative;
+
+}
+body{
+    margin: 0;
+    position: absolute;
+}
+.top{
+    display: flex;
+    width: 100%;
+    height: 30px; 
+    justify-content: space-between;
+    color: rgb(255, 253, 253);
+    filter: none;
+}
+.top2{
+    filter: none;
+
+}
+li{
+    margin-left: 30px;
+    margin-top: -15px;
+    margin-right: 10px;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.Cuerpo2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    color: rgb(255, 255, 255);
+}
+.Cuerpo{
+    margin-top: 170px;
+    justify-content: center;
+    width: 30%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.boton{
+    background-color: rgb(70, 70, 255);
+    border: 0px;
+    padding: 15px;
+    margin-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+.boton2{
+    background-color: rgb(70, 70, 255);
+    border: 0px;
+    padding: 25px;
+    margin-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    margin-top: 175px;
+    margin-left: 70px;
+    font-size: 20px;
+}
+.imagenesRecuadro{
+    width: 440px;
+    height: 190px;
+}
+ul{
+    display: flex;
+}
+
+.caja{
+    width: 100%;
+
+    justify-content: center;
+    height: 40%;
+    border: solid ;
+}
+.caja2{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    margin-left: 30px;
+}
+select{
+    border: none;
+    height: 90px;
+    width: 320px;
+    background-color: rgba(170, 170, 170, 0.575);
+    font-size: 25px;
+
+}
+.h2Selects{
+    font-size: 30px;
+}
+.centrar3{
+    display: grid;
+}
+.centrarCaja {
+    display: flex;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    min-width: 1400px;
+    max-width: 750px;
+    height: 30%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1); 
+    border-radius: 8px; 
+    flex-wrap: wrap;
+}
+.centrar2{
+    display: flex;
+    
+}
+.recuadros{
+    display: flex;
+    justify-content: center;
+    min-width: 1400px;
+    max-width: 750px;
+    margin-top: -150px;
+}
+.cuadro{
+    border: 1px #868686 solid;
+    margin: 30px;
+    text-align: center;
+
+}
+.centrarRecuadros{
+    display: flex;
+    justify-content: center;
+}
+.textoRecuadros{
+    margin: 40px;
+}
+
+/*SWIPER COSAS*/
+.swiper {
+    width: 100%;
+    max-width: 1900px;
+    height: 700px;
+    margin: auto;
+    padding-right: -3230px;
+}
+  
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    background-color: #d0cfcf;
+    color: #000000;
+}
+.slide1Content{
+    display: flex;
+}
+.slide1Title{
+    display: grid;
+    justify-content: center;
+}
+.boton3{
+    background-color: rgb(70, 70, 255);
+    border: 0px;
+    padding: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 20px;
+    
+    margin-top: -200px;
+    margin-left: 1500px;
+}
+/* END SWIPER COSAS*/
+
+.imagenesFeaturedCars{
+    width: 95%;
+    border: 1px rgb(182, 182, 182) solid;
+}
+.carModel{
+    width: 95%;
+    margin-top: -5px;
+    border: 1px rgb(182, 182, 182) solid;
+    word-spacing: 10px;
+    height: 40px;
+    
+}
+.Celdas{
+    display: flex;
+    justify-content: center;
+    min-width: 1400px;
+    max-width: 750px;
+}
+.centradoGeneral{
+    display: grid;
+    justify-content: center;
+}
+.carDesc{
+    width: 95%;
+}
+.clients{
+    background-color:#d0cfcf;
+    justify-content: center;
+}
+.clientHeader{
+    width: 100%; 
+    height: 150px; 
+    display: grid; 
+    justify-content: center;
+    margin-top: 90px;
+
+}
+.allClients{
+    display: flex;
+    margin: 10px; 
+    justify-content: center;
+}
+.celd{
+    background-color:#d0cfcf;
+}
+.client{
+
+    padding: 30px;
+    text-align: center;
+    margin: 15px;
+    width: 20%;
+    height: 30%;
+    display: grid;
+    justify-content: center;
+    border: #868686 solid 1px;
+
+}
+.PFP{
+    height: 100px;
+    width: 100px;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 190px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.logo{
+    width: 10.5%;
+  
+}
+/*FOOTER*/
+
+footer {
+    background-color: #333; /* Cambia el color de fondo aquí */
+    color: #fff; /* Cambia el color del texto aquí */
+    padding: 30px 0;
+    height: 400px;
+
+}
+  
+  .container {
+    max-width: 1200px;
+
+
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .col {
+    padding: 0 20px;
+    flex-direction: column;
+}
+.modelos{
+    height: 100%;
+}
+li{
+    height: 60px;
+}
+h3{
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+}
+.col1{
+    display: grid;
+    height: 321px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+  
+.social-media a {
+    margin: 0 5px;
+}
+  
+.copyright {
+    text-align: center;
+    font-size: 14px;
+
+}
+
